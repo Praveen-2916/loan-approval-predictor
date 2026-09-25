@@ -1,38 +1,31 @@
-# 🏦 Loan Approval Prediction Web App
+# 🏦 Loan Approval Prediction
 
-A Machine Learning web application built with **Python**, **scikit-learn**, and **Streamlit** that predicts whether a bank loan application will be approved or rejected based on user financial metrics.
+A machine learning project that predicts whether a loan application is likely to be approved based on the applicant's financial information.
 
----
+I built this project to practice classification, data preprocessing, feature engineering, and deploying a machine learning model as a simple Streamlit web app.
 
-## 🚀 Live Demo
-👉 **[Click Here to Try the Live App](https://loan-approval-predictor-sj3jksmqotd69smqbdxhvz.streamlit.app/)**
+## Live Demo
 
----
+[Try the Loan Approval Predictor](https://loan-approval-predictor-sj3jksmqotd69smqbdxhvz.streamlit.app/)
 
-## 📌 Features
-* **Interactive UI:** Built using Streamlit for fast and clean user input forms.
-* **Full Data Preprocessing:** Handles missing values (imputation), categorical encoding (One-Hot & Ordinal), feature scaling, and feature transformation.
-* **Predictive Model:** Powered by a Logistic Regression classifier trained on applicant financial data.
+## What I Did
 
----
+- Cleaned and prepared the loan application data
+- Handled missing numerical and categorical values
+- Encoded categorical features
+- Applied feature engineering to `Credit_Score` and `DTI_Ratio`
+- Scaled the features
+- Trained a Logistic Regression model
+- Built a Streamlit interface for making predictions
 
-## 🛠️ Machine Learning Workflow & Tech Stack
-* **Language:** Python 3.x
-* **Libraries:** `pandas`, `numpy`, `scikit-learn`, `joblib`, `streamlit`
-* **Preprocessing Steps:**
-  1. Mean Imputation for missing numerical values
-  2. Mode Imputation for missing categorical values
-  3. Ordinal Encoding for `Education_Level`
-  4. One-Hot Encoding for remaining categorical variables
-  5. Feature Squaring applied to `Credit_Score` and `DTI_Ratio`
-  6. Standard Scaling applied across all features
-* **Model:** Logistic Regression
+## Tech Stack
 
----
+- Python - Pandas - NumPy - Scikit-learn - Joblib - Streamlit
 
-## 💻 How to Run Locally
+## Run Locally
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/Praveen-2916/loan-approval-predictor.git](https://github.com/Praveen-2916/loan-approval-predictor.git)
-   cd loan-approval-predictor
+Clone the repository:
+
+```bash
+git clone https://github.com/Praveen-2916/loan-approval-predictor.git
+cd loan-approval-predictor
